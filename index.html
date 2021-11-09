@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" type="text/javascript" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="app">
+    <div class="bg-light-gray">
+      <div class="search">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Поиск по городу" class="search-input">
+        <button class="search__button js-search__btn"></button>
+      </div>
+
+      <ul id="myUL" class="list-result">
+        <div class="search-item _d-none">
+          <div class="col-lg-8"><p class="addr">Адрес пункта</p></div>
+          <div class="col-lg-4 addr">Часы работы</div>
+        </div>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

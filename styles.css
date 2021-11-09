@@ -1,0 +1,106 @@
+.col-lg-8 {
+  width: 70%;
+}
+.col-lg-4 {
+  width: 30%;
+}
+
+#info-center #pick-up .ul-decimal li{
+  padding-left: 10px;
+}
+#info-center #pick-up .button.blue {
+  background-color: #008FC5;
+  width: auto;
+}
+
+
+.bg-gray {
+  padding: 30px;
+  background-color: #FBFBFB;
+}
+.bg-light-gray { 
+  padding: 30px;
+  background-color: #fbfbfb; 
+}
+
+#info-center li {
+  list-style: none !important;
+  padding: 0;
+}
+
+#info-center ._mb30 .ul-decimal li {
+  list-style: decimal inside !important;
+}
+
+.search {
+  display: flex;
+}
+
+.search {
+  border: 1px solid #ddd;
+}
+
+.search__button {
+  width: 70px;
+  background-color: #fff;
+  background-image: url('https://amwaycontent.ru/info-center-new/assets/img/2-5/searchicon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 16px;
+  padding: 18px 24px;
+  border: 0;
+}
+
+.search-input:focus-visible {
+  outline: 0;
+}
+
+.list-result {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 750px;
+  position: relative;
+  overflow: auto;
+}
+
+.search-item {
+  display: flex;
+  border: 1px solid #DADADA;
+  border-width: 0 0 1px 0;
+  background-color: #fbfbfb;
+  padding: 15px;
+  color: black;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.addr {
+  font-size: 16px;
+  line-height: 22px;
+  color: #56565a
+}
+
+._d-none { display: none; }
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+@media all and (max-width: 767px) {
+  #info-center #pick-up .button.blue {
+    width: 100%;
+    justify-content: center;
+  }
+  #info-center #pick-up ._mb15-mob {
+    margin-bottom: 15px;
+  }
+}
